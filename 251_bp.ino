@@ -5,8 +5,8 @@
 #include<WiFi.h>
 
 //  wifi credentials
-const char ssid[] = "your ssid";
-const char password[] = "your password";
+const char ssid[] = "Prakruthi";
+const char password[] = "Kala@9949@!";
 
 //  potpin on GPIO 34
 const int potpin = 34;

@@ -30,7 +30,12 @@ void setup()
 
 void loop()
 {
+if (WiFi.status() == WL_CONNECTED)
+  {
+    WiFiClient client;
+    HTTPClient http;
 
-  //  reading potentiometer at an interval of 1 sec
+     }
+  
 
 }

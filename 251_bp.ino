@@ -35,7 +35,11 @@ if (WiFi.status() == WL_CONNECTED)
     WiFiClient client;
     HTTPClient http;
 
+    Serial.print("Potentiometer = ");
+    Serial.print(bmp.readPotentiometer());
+    Serial.println(" ohm");
+
      }
-  
+  delay(3000);
 
 }
